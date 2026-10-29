@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Agent artifacts
+.agent/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime data
+*.db
+*.db-journal
+*.sqlite3
+data/*.db
+data/*.sqlite3
+
+# Environment
+.env
+.env.local
+
+# Streamlit local state
+.streamlit/
+
+# OS artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
